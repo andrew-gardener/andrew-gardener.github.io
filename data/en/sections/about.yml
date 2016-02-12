@@ -1,0 +1,29 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Full Stack Developer
+
+# your resume. this file path should be relative to you "static" directory
+resume: files/cv-andrew-gardener.pdf
+
+# a summary about you
+summary: |
+  I'm a Vancouver based Full Stack Software Developer with over 10 years of professional experience using a large variety of programming languages, frameworks, technologies, and deployment environments. I have a Bachelor's degree in Computer Science from Concordia University and a professional D.E.C. in Computer Science from Vanier College.
+
+  I enjoy web development, database design, and learning new technologies. I’m strong at both backend and frontend coding, although weaker at UI design (which I'm happy to use themes/Bootstrap to circumvent). I've worked with so many different languages and technologies throughout my career that I've learned how to pickup new ones very quickly.
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: fas fa-envelope
+  url: andrew.e.gardener@gmail.com
+- name: Github
+  icon: "fab fa-github"
+  url: https://github.com/andrew-gardener

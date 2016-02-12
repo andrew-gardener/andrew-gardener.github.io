@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Education
+  id: education
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  template: sections/education.html
+
+degrees:
+- name: Bachelor of Computer Science, Software Systems Option
+  other: |
+    - Graduated with Great Distinction.
+    - Member of the “Golden Key International Honour Society”.
+    - Awarded Entrance Scholarship 2008-2009. Renewed for 2009-2010 and 2010-2011.
+    - Dean’s Honor List: 2008-2009, 2009-2010, and 2010-2011.
+  icon: fa-code-branch
+  timeframe: 2018 - 2011
+  institution:
+    name: Concordia University
+    url: https://www.concordia.ca/
+  grade:
+    scale: GPA
+    achieved: 4.06
+    outOf: 4.3
+
+- name: Professional D.E.C. (College Education Diploma) in Computer Science
+  other: |
+    - Dean’s Honor Roll: 2006-2007 and 2007-2008; Honor Roll: 2005-2006.
+    - Awarded Entrance Scholarship.
+  icon: fa-file-code
+  timeframe: 2005 - 2008
+  institution:
+    name: Vanier College
+    url: https://www.vaniercollege.qc.ca/

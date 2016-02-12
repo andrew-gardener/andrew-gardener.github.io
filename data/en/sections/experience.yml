@@ -1,0 +1,150 @@
+# section information
+section:
+  name: Experience
+  id: experience
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/experiences.html
+
+# Your experiences
+experiences:
+- company:
+    name: Simon Fraser University - DHIL
+    location: Burnaby, BC
+    url: https://www.lib.sfu.ca/help/publish/dh/dhil
+  positions:
+  - designation: Web and Data Services Developer
+    start: January 2023
+    end: Present
+    responsibilities:
+    - Developed, maintained, and deployed multiple open source Digital Humanities web tools and repositories.
+    - Performed consultations for projects related to the SFU Digital Humanities community.
+    tags:
+    - PHP (Symfony)
+    - Docker (Swarm)
+    - MariaDB
+    - Javascript
+    - Bootstrap
+
+- company:
+    name: Apollo Insurance
+    location: Vancouver, BC
+    url: https://apollocover.com/
+  positions:
+  - designation: Full Stack Developer
+    start: June 2022
+    end: November 2022
+    responsibilities:
+    - Automated API documentation creation and managed API documentation platform.
+    - Contributed to development of partner API integration workflow to support automated customer application binding.
+    tags:
+    - Javascript (ReactJS, NodeJS)
+    - AWS (CloudFormation, Lambda, API Gateway)
+    - Serverless framework
+
+- company:
+    name: University of British Columbia - CTLT
+    location: Vancouver, BC
+    url: https://ctlt.ubc.ca/
+  positions:
+  - designation: Programmer Analyst II
+    start: March 2016
+    end: August 2021
+    responsibilities:
+    - |
+      Developed, maintained, and deployed 6 open/closed sourced education web tools and 10+ learning analytic tools in a team setting and independently.
+      - Took full project ownership of 3 education web tools and 5 learning analytics tools.
+      - Handled full stack - Frontend, Backend, Database, CI/CD, unit testing, AWS, & Kubernetes.
+    - |
+      Built a data warehouse pipeline using AWS infrastructure.
+      - Canvas Data csv files to a Redshift database and S3/Athena in Parquet format.
+    - |
+      Contributed to IMS Global’s Caliper specification working group.
+      - Authored 2 new Caliper spec profiles (Received leadership Award from IMS Global).
+      - Contributed to the open source Caliper implementation libraries for Python, PHP, and Ruby.
+    - Supervised and mentored students employees (code reviews, project guidance).
+    tags:
+    - Docker
+    - Python (Django, Flask, Pandas)
+    - PHP
+    - Ruby
+    - Perl
+    - MySQL
+    - PostgreSQL
+    - Bootstrap
+    - Javascript (AngularJS, JQuery, NodeJS)
+    - AWS (CloudFormation, Lambda, Step Functions, Glue, Athena)
+    - GraphQL
+
+- company:
+    name: Concordia University - CSLP
+    location: Montreal, QC
+    url: https://www.concordia.ca/research/learning-performance.html
+  positions:
+  - designation: Software Developer
+    start: March 2013
+    end: February 2016
+    responsibilities:
+    - |
+      Developed and maintained 10+ education web tools in a team setting.
+      - Took full project ownership of 3 education web tools.
+    - Independently developed an education iOS Application.
+    tags:
+    - Swift
+    - Xcode
+    - PHP (Drupal)
+    - MySQL
+    - Bootstrap
+    - Javascript (AngularJS, JQuery)
+
+- company:
+    name: Tutor With Me
+    location: Laval, QC
+  positions:
+  - designation: Co-founder / Software Developer
+    start: February 2011
+    end: January 2013
+    responsibilities:
+    - |
+      Developed and maintained main website and online interactive learning environment.
+      - Built main website search engine (Elasticsearch), scheduling, and listings.
+      - Built online interactive learning environment connectivity (WebSockets).
+    tags:
+    - Ruby on Rails
+    - Javascript (JQuery, NodeJS)
+    - Redis
+    - Sidekiq
+    - Elasticsearch
+    - WebSockets
+    - S3
+
+- company:
+    name: Kepri Expeditions
+    location: Montreal, QC
+  positions:
+  - designation: Web Developer
+    start: November 2011
+    end: March 2012
+    responsibilities:
+    - Enhanced website to meet security standards and resolve performance issues.
+    - Created online registration forms for trips and improved Admin environment functionality.
+    tags:
+    - PHP
+    - Javascript (JQuery)
+
+- company:
+    name: Vanier College
+    location: St. Laurent, QC
+    url: https://www.vaniercollege.qc.ca/
+  positions:
+  - designation: Web Developer
+    start: April 2008
+    end: May 2009
+    responsibilities:
+    - Implemented website redesign for multiple department sites under the direction of the Web Communications Officer.
+    - Created online forms for alumni registration and for instructors to upload their profiles.
+    - Performed Webmaster role for the Department of Continuing Education.
+    tags:
+    - PHP
+    - Javascript (JQuery)

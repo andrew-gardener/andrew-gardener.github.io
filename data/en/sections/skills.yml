@@ -1,0 +1,62 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/skills.html
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Programming Languages and Frameworks
+  summary: |
+    Extensive knowledge and experience with: Python (Django, Flask, Pandas), PHP, Ruby (Rails), Javascript (AngualrJS, ReactJS, JQuery, Node.js), SQL, Swift (iOS), HTML5, CSS (SASS, LESS), JSON, XML
+
+    Can pickup new programming languages and frameworks quickly.
+  logo: /images/sections/skills/programming.png
+
+- name: Cloud Computing
+  summary: |
+    Worked extensively with AWS stacks: Lambda, Step Functions, Glue, Athena, S3, Redshift, RDS, ECS, Fargate, Cloudformation, etc.
+
+    Also some Google Cloud.
+  logo: /images/sections/skills/cloud.png
+
+- name: Databases
+  summary: |
+    Extensive experience building and maintaining MySQL, MariaDB, and PostgreSQL databases. Also AWS specific databases and NoSQL: Redshift, RDS, Athena, and DynamoDB.
+  logo: /images/sections/skills/database.png
+
+- name: Data Manipulation
+  summary: |
+    Experience manipulating and transforming large sets of data with Pandas (terabytes of education related data).
+  logo: /images/sections/skills/pandas.svg
+  url: https://pandas.pydata.org
+
+- name: Docker
+  summary: |
+    Use dockerized containers for most local development to speed up and stabilize development.
+  logo: /images/sections/skills/docker.svg
+  url: https://www.docker.com
+
+- name: Kubernetes
+  summary: |
+    Experience creating and maintaining application deployments to Kubernetes using Helm charts.
+  logo: /images/sections/skills/kubernetes.png
+  url: https://kubernetes.io
+
+- name: Git
+  summary: |
+    Experienced with git based development (Github, Gitlab, Bitbucket). Lots of experience with the (single commit) feature branch workflow and rebase/amend.
+  logo: /images/sections/skills/git.png
+  url: https://git-scm.com
+
+- name: IMS Global Open Standards Contributor
+  summary: |
+    Past experience participating in the IMS Caliper specification working group where I authored and contributed new profiles to the specification. Also helped update and maintain some of the Caliper implementation libraries.
+
+    Given a leadership award by IMS in recognition of my contributions.
+  logo: /images/sections/skills/ims-global.png
+  url: http://www.imsglobal.org

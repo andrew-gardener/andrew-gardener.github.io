@@ -1,0 +1,15 @@
+# some information about you
+name: Andrew Gardener
+nickname: Andrew
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: Hi, I'm
+image: images/author/andrew-gardener.png
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: andrew.e.gardener@gmail.com
+
+# some summary about what you do
+summary:
+  - I am a Full Stack Developer
+  - I love open source!
+  - Thanks for visiting my website!
